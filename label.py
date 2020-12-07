@@ -32,6 +32,9 @@ class Label():
         self.fiber = search('Fiber {:w}', text)
         self.sugars = search('Sugars {:d}', text)
         self.protien = search('Protein {:d} {:w}', text)
-        self.ingredients = text.split("Ingredients: ")[1]
+        try:
+            self.ingredients = text.split("Ingredients: ")[1]
+        except IndexError:
+            self.ingredients = None
 
     
