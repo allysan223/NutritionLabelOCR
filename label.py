@@ -20,21 +20,36 @@ class Label():
     """
     def __init__(self, text):
         self.text = text
-        self.servingSize = search('Serving Size {:w}', text)
-        self.servingsPer = search('Servings per container {:d}', text)
-        self.calories = search('Calories {:d}', text)
-        self.fatCals = search('FatCal {:d}', text)
-        self.totalFat = search('Total Fat {:d} {:w}', text)
-        self.satFat = search('Sat Fat {:d} {:w}', text)
-        self.cholesterol = search('Cholesterol {:d} {:w}', text)
-        self.sodium = search('Sodium {:d} {:w}', text)
-        self.totalCarbs = search('Total Carbohydrate {:d} {:w}', text)
-        self.fiber = search('Fiber {:w}', text)
-        self.sugars = search('Sugars {:d}', text)
-        self.protien = search('Protein {:d} {:w}', text)
+        self.servingSize = search('Serving Size {val:w}', text)['val']
+        self.servingsPer = search('Servings per container {val:d}', text)['val']
+        self.calories = search('Calories {val:d}', text)['val']
+        self.fatCals = search('FatCal {val:d}', text)['val']
+        self.totalFat = search('Total Fat {:d} {:w}', text)[0], search('Total Fat {:d} {:w}', text)[1]+"%"
+        self.satFat = search('Sat Fat {:d} {:w}', text)[0], search('Sat Fat {:d} {:w}', text)[1]+"%"
+        self.cholesterol = search('Cholesterol {:w} {:w}', text)[0], search('Cholesterol {:w} {:w}', text)[1]+"%"
+        self.sodium = search('Sodium {:w} {:w}', text)[0], search('Sodium {:w} {:w}', text)[1]+"%"
+        self.totalCarbs = search('Total Carbohydrate {:w} {:w}', text)[0], search('Total Carbohydrate {:w} {:w}', text)[1]+"%"
+        self.fiber = search('Fiber {val:w}', text)['val']
+        self.sugars = search('Sugars {val:d}', text)['val']
+        self.protien = search('Protein {:w} {:w}', text)[0], search('Protein {:w} {:w}', text)[1]+"%"
         try:
             self.ingredients = text.split("Ingredients: ")[1]
         except IndexError:
             self.ingredients = None
+            
+    def labelPrint(self):
+        print("serving size:", self.servingSize)
+        print("servings per container:", self.servingsPer)
+        print("calories:", self.calories)
+        print("fat calories:", self.fatCals)
+        print("total fat:", self.totalFat)
+        print("saturated fats:", self.satFat)
+        print("cholesterol:", self.cholesterol)
+        print("sodium:", self.sodium)
+        print("fiber:", self.fiber)
+        print("sugars:", self.sugars)
+        print("protien:", self.protien)
+        print("ingredients:", self.ingredients)
+
 
     

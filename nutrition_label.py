@@ -26,4 +26,5 @@ text = pytesseract.image_to_string(img, config=custom_config)
 print(text)
 
 label1 = Label(text)
-print(label1.ingredients)
+label1.labelPrint()
+print(label1.servingSize)
