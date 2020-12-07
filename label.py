@@ -24,13 +24,13 @@ class Label():
         self.servingsPer = search('Servings per container {val:d}', text)['val']
         self.calories = search('Calories {val:d}', text)['val']
         self.fatCals = search('FatCal {val:d}', text)['val']
-        self.totalFat = search('Total Fat {:d} {:w}', text)[0], search('Total Fat {:d} {:w}', text)[1]+"%"
-        self.satFat = search('Sat Fat {:d} {:w}', text)[0], search('Sat Fat {:d} {:w}', text)[1]+"%"
+        self.totalFat = search('Total Fat {:w} {:w}', text)[0], search('Total Fat {:w} {:w}', text)[1]+"%"
+        self.satFat = search('Sat Fat {:w} {:w}', text)[0], search('Sat Fat {:w} {:w}', text)[1]+"%"
         self.cholesterol = search('Cholesterol {:w} {:w}', text)[0], search('Cholesterol {:w} {:w}', text)[1]+"%"
         self.sodium = search('Sodium {:w} {:w}', text)[0], search('Sodium {:w} {:w}', text)[1]+"%"
         self.totalCarbs = search('Total Carbohydrate {:w} {:w}', text)[0], search('Total Carbohydrate {:w} {:w}', text)[1]+"%"
         self.fiber = search('Fiber {val:w}', text)['val']
-        self.sugars = search('Sugars {val:d}', text)['val']
+        self.sugars = search('Sugars {val:w}', text)['val']
         self.protien = search('Protein {:w} {:w}', text)[0], search('Protein {:w} {:w}', text)[1]+"%"
         try:
             self.ingredients = text.split("Ingredients: ")[1]
