@@ -12,11 +12,11 @@ import matplotlib.image as mpimg
 from os.path import dirname, join
 from label import *
 
-current_dir = dirname(__file__)
-file_path = join(current_dir, "./label.png")
+# current_dir = dirname(__file__)
+# file_path = join(current_dir, "./label.png")
+# img = cv2.imread(file_path)
 
-img = cv2.imread(file_path)
-#img = cv2.imread('label.png')
+img = cv2.imread('label.png')
 # plt.imshow(img)
 # plt.show()
 
