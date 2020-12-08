@@ -20,18 +20,97 @@ class Label():
     """
     def __init__(self, text):
         self.text = text
-        self.servingSize = search('Serving Size {val:w}', text)['val']
-        self.servingsPer = search('Servings per container {val:d}', text)['val']
-        self.calories = search('Calories {val:d}', text)['val']
-        self.fatCals = search('FatCal {val:d}', text)['val']
-        self.totalFat = search('Total Fat {:w} {:w}', text)[0], search('Total Fat {:w} {:w}', text)[1]+"%"
-        self.satFat = search('Sat Fat {:w} {:w}', text)[0], search('Sat Fat {:w} {:w}', text)[1]+"%"
-        self.cholesterol = search('Cholesterol {:w} {:w}', text)[0], search('Cholesterol {:w} {:w}', text)[1]+"%"
-        self.sodium = search('Sodium {:w} {:w}', text)[0], search('Sodium {:w} {:w}', text)[1]+"%"
-        self.totalCarbs = search('Total Carbohydrate {:w} {:w}', text)[0], search('Total Carbohydrate {:w} {:w}', text)[1]+"%"
-        self.fiber = search('Fiber {val:w}', text)['val']
-        self.sugars = search('Sugars {val:w}', text)['val']
-        self.protien = search('Protein {:w} {:w}', text)[0], search('Protein {:w} {:w}', text)[1]+"%"
+        
+        try:
+            self.servingSize = search('Serving Size {val:w}', text)['val'] 
+        except TypeError:
+            self.servingSize = None
+
+        try:
+            self.servingsPer = search('Servings per container {val:d}', text)['val']
+        except TypeError:
+            self.servingsPer = None
+
+        try:
+            self.calories = search('Calories {val:d}', text)['val']
+        except:
+            self.calories = None
+
+        try:
+            self.fatCals = search('FatCal {val:d}', text)['val']
+        except:
+            self.fatCals = None
+
+        self.totalFat = (None, None)
+        try:
+            self.totalFat[0] = search('Total Fat {:w} {:w}', text)[0]
+        except:
+            pass
+        try:
+            self.totalFat[1] = search('Total Fat {:w} {:w}', text)[1]+"%"
+        except:
+            pass
+
+        self.satFat = (None, None)
+        try:
+            self.satFat[0] = search('Sat Fat {:w} {:w}', text)[0]
+        except:
+            pass
+        try:
+            self.satFat[1] = search('Sat Fat {:w} {:w}', text)[1]+"%"
+        except:
+            pass
+
+        self.cholesterol = (None, None)
+        try:
+            self.cholesterol[0] = search('Cholesterol {:w} {:w}', text)[0]
+        except:
+            pass
+        try:
+            self.cholesterol[1] = search('Cholesterol {:w} {:w}', text)[1]+"%"
+        except:
+            pass
+
+        self.sodium = (None, None)
+        try:
+            self.sodium[0] = search('Sodium {:w} {:w}', text)[0]
+        except:
+            pass
+        try:
+            self.sodium[1] = search('Sodium {:w} {:w}', text)[1]+"%"
+        except:
+            pass
+        
+        self.totalCarbs = (None, None)
+        try:
+            self.totalCarbs[0] = search('Total Carbohydrate {:w} {:w}', text)[0]
+        except:
+            pass
+        try:
+            self.totalCarbs[1] = search('Total Carbohydrate {:w} {:w}', text)[1]+"%"
+        except:
+            pass
+
+        try:
+            self.fiber = search('Fiber {val:w}', text)['val']
+        except:
+            self.fiber = None
+
+        try:
+            self.sugars = search('Sugars {val:w}', text)['val']
+        except:
+            self.sugars = None
+
+        self.protien = (None, None)
+        try:
+            self.protien[0] = search('Protein {:w} {:w}', text)[0]
+        except:
+            pass
+        try:
+            self.protien[1] = search('Protein {:w} {:w}', text)[1]+"%"
+        except:
+            pass
+
         try:
             self.ingredients = text.split("Ingredients: ")[1]
         except IndexError:
