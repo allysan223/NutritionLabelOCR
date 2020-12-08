@@ -20,7 +20,7 @@ class Label():
     """
     def __init__(self, text):
         self.text = text
-        
+
         try:
             self.servingSize = search('Serving Size {val:w}', text)['val'] 
         except TypeError:
@@ -41,9 +41,11 @@ class Label():
         except:
             self.fatCals = None
 
-        self.totalFat = (None, None)
+        self.totalFat = [None, None]
         try:
+            print("TEST",search('Total Fat {:w} {:w}', text)[0])
             self.totalFat[0] = search('Total Fat {:w} {:w}', text)[0]
+            
         except:
             pass
         try:
@@ -51,7 +53,7 @@ class Label():
         except:
             pass
 
-        self.satFat = (None, None)
+        self.satFat = [None, None]
         try:
             self.satFat[0] = search('Sat Fat {:w} {:w}', text)[0]
         except:
@@ -61,7 +63,7 @@ class Label():
         except:
             pass
 
-        self.cholesterol = (None, None)
+        self.cholesterol = [None, None]
         try:
             self.cholesterol[0] = search('Cholesterol {:w} {:w}', text)[0]
         except:
@@ -71,7 +73,7 @@ class Label():
         except:
             pass
 
-        self.sodium = (None, None)
+        self.sodium = [None, None]
         try:
             self.sodium[0] = search('Sodium {:w} {:w}', text)[0]
         except:
@@ -81,7 +83,7 @@ class Label():
         except:
             pass
         
-        self.totalCarbs = (None, None)
+        self.totalCarbs = [None, None]
         try:
             self.totalCarbs[0] = search('Total Carbohydrate {:w} {:w}', text)[0]
         except:
@@ -101,7 +103,7 @@ class Label():
         except:
             self.sugars = None
 
-        self.protien = (None, None)
+        self.protien = [None, None]
         try:
             self.protien[0] = search('Protein {:w} {:w}', text)[0]
         except:

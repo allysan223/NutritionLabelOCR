@@ -16,7 +16,7 @@ from label import *
 # file_path = join(current_dir, "./label.png")
 # img = cv2.imread(file_path)
 
-img = cv2.imread('image.png')
+img = cv2.imread('label.png')
 # plt.imshow(img)
 # plt.show()
 
