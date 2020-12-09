@@ -1,4 +1,19 @@
 from parse import *
+import re
+
+def find_between(s, start, end):
+    try:
+        s = s.lower()
+        start = start.lower()
+        end = end.lower()
+        # get text inbetween start and end
+        text = (s.split(start))[1].split(end)[0].strip()
+        # remove ':' if exists
+        text = text.replace(":", "")
+    #return if not found
+    except IndexError:
+        text = "Not Found"
+    return text.strip()
 
 class Label():
     """
@@ -21,101 +36,30 @@ class Label():
     def __init__(self, text):
         self.text = text
         # put each attribute in try catch in case value is not found from search
-        try:
-            self.servingSize = search('Serving Size {val:w}', text)['val'] 
-        except TypeError:
-            self.servingSize = None
+        # try:
+        #     self.servingSize = search('Serving Size {val:w}', text)['val'] 
+        # except TypeError:
+        #     self.servingSize = "Not Found"
+        self.servingSize = find_between(text, "Serving Size", "\n")
+        self.servingsPer = find_between(text, "Servings Per Container", "\n") 
+        self.calories = find_between(text, "Calories", "cal") 
+        self.fatCals = find_between(text, "calories from fat", "\n")
+        self.totalFat = find_between(text, "total fat", "\n")
+        self.satFat = find_between(text, "Sat Fat", "\n")
+        if self.satFat is "Not Found":
+            self.satFat = find_between(text, "Sat. Fat", "\n")
+        self.cholesterol = find_between(text, "cholesterol", "\n")
+        self.sodium = find_between(text, "sodium", "\n")
+        self.totalCarbs = find_between(text, "Total Carbohydrate", "\n")
+        self.fiber = find_between(text, "Fiber", "\n")
+        self.sugars = find_between(text, "sugars", "\n")
+        self.protein = find_between(text, "protein", "\n")
 
         try:
-            self.servingsPer = search('Servings per container {val:d}', text)['val']
-        except TypeError:
-            self.servingsPer = None
-
-        try:
-            self.calories = search('Calories {val:d}', text)['val']
-        except:
-            self.calories = None
-
-        try:
-            self.fatCals = search('FatCal {val:d}', text)['val']
-        except:
-            self.fatCals = None
-
-        self.totalFat = [None, None]
-        try:
-            self.totalFat[0] = search('Total Fat {:w} {:w}', text)[0]
-            
-        except:
-            pass
-        try:
-            self.totalFat[1] = search('Total Fat {:w} {:w}', text)[1]+"%"
-        except:
-            pass
-
-        self.satFat = [None, None]
-        try:
-            self.satFat[0] = search('Sat Fat {:w} {:w}', text)[0]
-        except:
-            pass
-        try:
-            self.satFat[1] = search('Sat Fat {:w} {:w}', text)[1]+"%"
-        except:
-            pass
-
-        self.cholesterol = [None, None]
-        try:
-            self.cholesterol[0] = search('Cholesterol {:w} {:w}', text)[0]
-        except:
-            pass
-        try:
-            self.cholesterol[1] = search('Cholesterol {:w} {:w}', text)[1]+"%"
-        except:
-            pass
-
-        self.sodium = [None, None]
-        try:
-            self.sodium[0] = search('Sodium {:w} {:w}', text)[0]
-        except:
-            pass
-        try:
-            self.sodium[1] = search('Sodium {:w} {:w}', text)[1]+"%"
-        except:
-            pass
-        
-        self.totalCarbs = [None, None]
-        try:
-            self.totalCarbs[0] = search('Total Carbohydrate {:w} {:w}', text)[0]
-        except:
-            pass
-        try:
-            self.totalCarbs[1] = search('Total Carbohydrate {:w} {:w}', text)[1]+"%"
-        except:
-            pass
-
-        try:
-            self.fiber = search('Fiber {val:w}', text)['val']
-        except:
-            self.fiber = None
-
-        try:
-            self.sugars = search('Sugars {val:w}', text)['val']
-        except:
-            self.sugars = None
-
-        self.protien = [None, None]
-        try:
-            self.protien[0] = search('Protein {:w} {:w}', text)[0]
-        except:
-            pass
-        try:
-            self.protien[1] = search('Protein {:w} {:w}', text)[1]+"%"
-        except:
-            pass
-
-        try:
-            self.ingredients = text.split("Ingredients: ")[1]
+            self.ingredients = re.split("Ingredients:", text, flags=re.IGNORECASE)[1]
+            # self.ingredients = text.split("Ingredients: ")[1]
         except IndexError:
-            self.ingredients = None
+            self.ingredients = "Not Found"
             
     def labelPrint(self):
         print("serving size:", self.servingSize)
@@ -128,7 +72,7 @@ class Label():
         print("sodium:", self.sodium)
         print("fiber:", self.fiber)
         print("sugars:", self.sugars)
-        print("protien:", self.protien)
+        print("protein:", self.protein)
         print("ingredients:", self.ingredients)
 
 

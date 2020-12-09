@@ -12,17 +12,24 @@ from pytesseract import Output
 import matplotlib.image as mpimg
 from os.path import dirname, join
 from label import *
+import os
 
 
-# current_dir = dirname(__file__)
-# file_path = join(current_dir, "./label.png")
-# img = cv2.imread(file_path) 
+# get list of images from image set
+images = []
+currentDir = dirname(__file__)
+filePath = join(currentDir, "./images")
+for fileName in os.listdir(filePath):
+    images.append(fileName)
+print(images)
 
-img = cv2.imread('chocolateBar.png')
+# read image
+img = cv2.imread('images/vanillaproteinpowder.jpg')
+# img = cv2.imread('images/label.png')
 
 #detect words
-d = pytesseract.image_to_data(img, output_type=Output.DICT)
-print(d.keys())
+# d = pytesseract.image_to_data(img, output_type=Output.DICT)
+# print(d.keys())
 
 #generate boxes around words
 # n_boxes = len(d['text'])
@@ -38,10 +45,12 @@ print(d.keys())
 # plt.imshow(img)
 # plt.show()
 
-# Adding custom options
+# configure tesseract ocr
 custom_config = r'--oem 3 --psm 6'
 text = pytesseract.image_to_string(img, config=custom_config)
 print(text)
+
+print("Servings Per Container" in text)
 
 label1 = Label(text)
 label1.labelPrint()
