@@ -20,7 +20,7 @@ class Label():
     """
     def __init__(self, text):
         self.text = text
-
+        # put each attribute in try catch in case value is not found from search
         try:
             self.servingSize = search('Serving Size {val:w}', text)['val'] 
         except TypeError:
@@ -43,7 +43,6 @@ class Label():
 
         self.totalFat = [None, None]
         try:
-            print("TEST",search('Total Fat {:w} {:w}', text)[0])
             self.totalFat[0] = search('Total Fat {:w} {:w}', text)[0]
             
         except:
