@@ -16,7 +16,7 @@ class Label():
     Ingredients: Cream, Skim Mik, Liquid
     ‘Sugar, Water, Egg Yolks, Brown Sugar,
     Mikfat, Peanut Ol, Sugar, Butter, Salt,
-    Carrageenan, Vanilla Extract. 
+    Carrageenan, Vanilla Extract.
     """
     def __init__(self, text):
         self.text = text
