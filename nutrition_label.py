@@ -23,7 +23,7 @@ for fileName in os.listdir(filePath):
     if fileName.lower().endswith(('.png', '.jpg', '.jpeg')):
         images.append(fileName)
 
-images = ["OAT.jpg"]
+# images = ["OAT.jpg"]
 
 fileText = ""
 
@@ -44,6 +44,10 @@ for image in images:
     fileText = fileText + "--------------------------------------\n"
     print("--------------------------------------")
     # img = cv2.imread('images/label.png')
+    
+print(label1.calories)
+
+
 
 with open("data.txt", "w") as file:
     file.write(fileText)

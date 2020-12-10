@@ -42,8 +42,12 @@ class Label():
         #     self.servingSize = "Not Found"
         self.servingSize = find_between(text, "Serving Size", "\n")
         self.servingsPer = find_between(text, "Servings Per Container", "\n") 
-        self.calories = find_between(text, "Calories", "cal") 
+        self.calories = find_between(text, "Calories", "cal")
+        self.calories = find_between(text, "Calories", "\n") 
         self.fatCals = find_between(text, "calories from fat", "\n")
+        if "fatcal" in self.calories:
+            self.calories = find_between(text, "Calories", "fatcal") 
+            self.fatCals = find_between(text, "fatcal", "\n")
         self.totalFat = find_between(text, "total fat", "\n")
         self.satFat = find_between(text, "Sat Fat", "\n")
         if self.satFat == "Not Found":
@@ -70,13 +74,14 @@ class Label():
         print("saturated fats:", self.satFat)
         print("cholesterol:", self.cholesterol)
         print("sodium:", self.sodium)
+        print("total carbohydrates:", self.totalCarbs)
         print("fiber:", self.fiber)
         print("sugars:", self.sugars)
         print("protein:", self.protein)
         print("ingredients:", self.ingredients)
 
     def labelString(self):
-        s = "serving size:"+ self.servingSize+ "\nservings per container:"+ self.servingsPer+"\ncalories:"+ self.calories+"\nfat calories:"+ self.fatCals+"\ntotal fat:"+ self.totalFat+"\nsaturated fats:"+ self.satFat+"\ncholesterol:"+ self.cholesterol+"\nsodium:"+ self.sodium+"\nfiber:"+ self.fiber+"\nsugars:"+ self.sugars+"\nprotein:"+ self.protein+"\ningredients:"+ self.ingredients
+        s = "serving size:"+ self.servingSize+ "\nservings per container:"+ self.servingsPer+"\ncalories:"+ self.calories+"\nfat calories:"+ self.fatCals+"\ntotal fat:"+ self.totalFat+"\nsaturated fats:"+ self.satFat+"\ncholesterol:"+ self.cholesterol+"\nsodium:"+ self.sodium+"\ntotal carbohydrates:"+ self.totalCarbs+"\nfiber:"+ self.fiber+"\nsugars:"+ self.sugars+"\nprotein:"+ self.protein+"\ningredients:"+ self.ingredients
         return s
 
     

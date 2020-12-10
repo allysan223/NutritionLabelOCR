@@ -48,6 +48,7 @@ total fat:3g 5%
 saturated fats:lessthan 20g 259
 cholesterol:omg 0%
 sodium:250mg 10%
+total carbohydrates:19g 6%
 fiber:12g 48%
 sugars:39
 protein:20g 24%
@@ -86,21 +87,12 @@ DISODIUM EDTA (TO PROTECT FLAVOR).
 serving size:
 servings per container:Not Found
 calories:160
-se)
-% daily value*
-total fat og 0%
-sodium 35mg 1%
-total carbohydrate 39g 13%
-sugars 38g
-protein og
-od
-* percent daily values are
-based on a 2,000
 fat calories:Not Found
 total fat:og 0%
 saturated fats:Not Found
 cholesterol:Not Found
 sodium:35mg 1%
+total carbohydrates:39g 13%
 fiber:Not Found
 sugars:38g
 protein:og
@@ -141,26 +133,12 @@ ase pd (i)
 serving size:Not Found
 servings per container:Not Found
 calories:200 ingredients sugar, almonds, butter (cream, salt), palm
-———tme| oil, palm kernel oil, cocoa processed with alkali, skim
-tf tg%| milk powder, whey powder, soy lecithin (emulsifier),
-seiad fated jou | unsweetened chocolate (cocoa mass) and vanilla
-tee fae (natural flavor). contains tree nuts (almonds), milk
-products and soy.
-cholesterol 15mg 5%
-— ae =| manufactured on shared equipment that processes
-taal eld “| peanuts, tree nuts, milk and soy. store in a cool, dry
-dietary fiber 1g 4%
-d place.
-total sugars 16g
-includes 16g added sugars 30%.
-protein 2g
-se
-vit. d omeg 0% *
 fat calories:Not Found
 total fat:Not Found
 saturated fats:Not Found
 cholesterol:15mg 5%
 sodium:Not Found
+total carbohydrates:Not Found
 fiber:1g 4%
 sugars:16g
 protein:2g
@@ -212,12 +190,13 @@ Carrageenan, Vanilla Extract.
 **********PARSE DATA:*********
 serving size:cup
 servings per container:4
-calories:250 fat
+calories:250
 fat calories:Not Found
 total fat:130 20%
 saturated fats:99 40%
 cholesterol:28mg 12%
 sodium:55mg 2%
+total carbohydrates:30g 12%
 fiber:2g
 sugars:239
 protein:4g 8%
@@ -270,28 +249,12 @@ CONTAINS SOY AND WHEAT.
 serving size:1 pouch (45g)
 servings per container:Not Found
 calories:170
-—
-total fat 2.5 3%
-saturated fat 0.5g 3%
-trans fat 0g
-polyunsaturated fat 1g
-monounsaturated fat 0.5g
-cholesterol omg 0%
-sodium 280mg 12%
-total carbohydrate 28g 10%
-dietary fiber 3g 9%
-soluble fiber 1g
-insoluble fiber 2g
-total sugars 11g
-includes 11g added sugars 21%
-protein 10g 15%
-rr
-vitamin d omeg 0%
 fat calories:Not Found
 total fat:2.5 3%
 saturated fats:Not Found
 cholesterol:omg 0%
 sodium:280mg 12%
+total carbohydrates:28g 10%
 fiber:3g 9%
 sugars:11g
 protein:10g 15%
@@ -381,6 +344,7 @@ total fat:3g 5%
 saturated fats:Not Found
 cholesterol:15mg 5%
 sodium:230mg 10%
+total carbohydrates:<1g 0%
 fiber:0g 0%
 sugars:0g
 protein:10g 2%
@@ -435,29 +399,12 @@ Annatto (for color), Tocopherols
 serving size:1 cup (40g)
 servings per container:
 calories:130
-——
-% daily value*
-total fat 0.59 1%
-saturated fat 0g 0%
-trans fat 0g
-polyunsaturated fat 0g
-monounsaturated fat 0g
-cholesterol omg 0%
-sodium 100mg 4%
-total carbohydrate 33g 12%
-dietary fiber 4g 14%
-soluble fiber 2g
-insoluble fiber 2g
-total sugars 7g
-incl. 7g added sugars 14%
-protein 39
-cts
-vitamin d omcg 0%
 fat calories:Not Found
 total fat:0.59 1%
 saturated fats:Not Found
 cholesterol:omg 0%
 sodium:100mg 4%
+total carbohydrates:33g 12%
 fiber:4g 14%
 sugars:7g
 protein:39
@@ -525,29 +472,12 @@ Mononitrate (Vitamin B1), Folic Acid.
 serving size:1 pouch (28g)
 servings per container:Not Found
 calories:100
-se eee
-% daily value*
-total fat 2g 3%
-saturated fat 0g o%
-trans fat 0g
-polyunsaturated fat 1g
-monounsaturated fat 0.5g
-cholesterol omg o%
-sodium 210mg 9%
-total carbohydrate 18g 7%
-dietary fiber 3g 10%
-soluble fiber 1g
-insoluble fiber 2g
-total sugars <1g
-includes <ig added sugars 1%
-protein 4g
-rere
-vitamin d omeg 0%
 fat calories:Not Found
 total fat:2g 3%
 saturated fats:Not Found
 cholesterol:omg o%
 sodium:210mg 9%
+total carbohydrates:18g 7%
 fiber:3g 10%
 sugars:<1g
 protein:4g
@@ -616,6 +546,7 @@ total fat:199 29%
 saturated fats:lees than 20g 259
 cholesterol:1509 5%
 sodium:s80m0 24%
+total carbohydrates:470 16%
 fiber:19 a
 sugars:60
 protein:103
@@ -669,25 +600,12 @@ FLAVORS), SUCRALOSE
 serving size:2 scoops (28g)
 servings per container:
 calories:120
-a
-% daily value*
-total fat 0g 0%
-saturated fat 0g 0%
-trans fat 0g
-cholesterol 0mg 0%
-sodium 390mg 17%
-total carbohydrate 5g 2%
-dietary fiber <1g 2%
-total sugars 4g
-includes 1g added sugars 2%
-protein 26g 52%
-es
-vitamin d omcg 0%
 fat calories:Not Found
 total fat:0g 0%
 saturated fats:Not Found
 cholesterol:0mg 0%
 sodium:390mg 17%
+total carbohydrates:5g 2%
 fiber:<1g 2%
 sugars:4g
 protein:26g 52%
@@ -737,39 +655,12 @@ CONTAINS: MILK AND SOY.
 serving size:1 scoop (309)
 servings per container:
 calories:110
-thame
-total fat 5 0%
-sarated fat %
-ran fat og
-ghotsterel 10mg %
-sedum 1009 a%
-total carbohyrate ig 0%
-data fer 9 %
-“oil supa <tg
-inclues og added soprs 0%
-protein 25 50%
-| cet rl
-vem oney o
-acing
-eng o%
-otasaum 2
-aes
-sisanagtotegeetesin ccs
-wvgredients fyorolyzed whey
-proten solate, why proten
-souate, natural and atc
-flavors, lss than 1% of edible
-gliter (gum atab fdrcred #3,
-fdr red #40, foac alle
-fda yellow 8) salt, soy
-lech, sucrose. stewol
-glycosdes stevia)
-contains milk and soy.
 fat calories:Not Found
 total fat:5 0%
 saturated fats:Not Found
 cholesterol:Not Found
 sodium:Not Found
+total carbohydrates:Not Found
 fiber:Not Found
 sugars:Not Found
 protein:25 50%
@@ -816,25 +707,12 @@ WITH ALKALI), SUCRALOSE
 serving size:2 scoops (28g)
 servings per container:
 calories:130
-ss
-% daily value*
-total fat 0g 0%
-saturated fat 0g 0%
-trans fat 0g
-cholesterol 0mg 0%
-sodium 400mg 17%
-total carbohydrate 7g 3%
-dietary fiber <1g 2%
-total sugars 4g
-includes 1g added sugars 2%
-protein 26g 52%
-ee
-vitamin d omeg 0%
 fat calories:Not Found
 total fat:0g 0%
 saturated fats:Not Found
 cholesterol:0mg 0%
 sodium:400mg 17%
+total carbohydrates:7g 3%
 fiber:<1g 2%
 sugars:4g
 protein:26g 52%
@@ -894,30 +772,12 @@ OTHER TREE NUTS, MILK AND EGGS.
 serving size:1 bar (40g)
 servings per container:
 calories:200
-be dally value
-total fat 14g 18%
-
-saturated fat 3g 15%
-
-trans fat 0g
-cholesterol omg 0%
-sodium 35mg 2%
-total carbohydrate 159 5%
-
-dietary fiber 3g 11%
-
-total sugars 7g
-
-includes 6g added sugars 12%
-
-protein 8g
-———————————
-vitamin d omeg 0% +
 fat calories:Not Found
 total fat:14g 18%
 saturated fats:Not Found
 cholesterol:omg 0%
 sodium:35mg 2%
+total carbohydrates:159 5%
 fiber:3g 11%
 sugars:7g
 protein:8g
@@ -976,6 +836,7 @@ total fat:Not Found
 saturated fats:Not Found
 cholesterol:Not Found
 sodium:Not Found
+total carbohydrates:Not Found
 fiber:Not Found
 sugars:og o%
 protein:Not Found
@@ -1021,6 +882,7 @@ total fat:0g 1%
 saturated fats:Not Found
 cholesterol:, dietary fiber, sugar alcohol, vitamin a,
 sodium:omg 0%
+total carbohydrates:2g 1%
 fiber:, sugar alcohol, vitamin a,
 sugars:2g
 protein:0g
@@ -1082,19 +944,12 @@ SSR ERS a eee ae ey ee Paves eres See One Mes ery oe ES le gi eS ae a 3 |
 serving size:.3 cookies (21d) atm gent mn ma ae
 servings per container:about 44 hi at get d(0) canola 4
 calories:2,000 —_2,500 .
-total fat less than 65g 80g .
-sat fat less than 20g 25g /
-cholesterol lessthan 300mg 300mg
-sodium less than 2,400mg 2,400mg .
-potassium 3,500mg 3,500mg
-total carbohydrate 300g 375g |
-dietary fiber 259 30g oe |
-ssr ers a eee ae ey ee paves eres see one mes ery oe es le gi es ae a 3 |
 fat calories:Not Found
 total fat:less than 65g 80g .
 saturated fats:less than 20g 25g /
 cholesterol:omg 0% fe es
 sodium:135mg 6% | ea a es
+total carbohydrates:25g 8% on ap tes ; |
 fiber:259 30g oe |
 sugars:14g 7 rae é  .
 protein:ig is | |
@@ -1178,24 +1033,12 @@ Rouge Melgar ears
 serving size:1 chew
 servings per container:Not Found
 calories:15
-tay ve!
-‘total fat 059 1%
-saturated fat og 0%
-trans fat 03
-cholesterol omg 0%
-‘sodium omg 0%
-total 1%
-dietary fber 0g 0%
-total sugars og
-includes 0g added sars 0%
-‘sugar alcohol 3g_
-protein 09
-vtamin © omeg 0%
 fat calories:Not Found
 total fat:059 1%
 saturated fats:Not Found
 cholesterol:omg 0%
 sodium:omg 0%
+total carbohydrates:Not Found
 fiber:Not Found
 sugars:og
 protein:09
@@ -1244,6 +1087,7 @@ total fat:Not Found
 saturated fats:Not Found
 cholesterol:Not Found
 sodium:Not Found
+total carbohydrates:Not Found
 fiber:Not Found
 sugars:Not Found
 protein:Not Found
