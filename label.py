@@ -46,7 +46,7 @@ class Label():
         self.fatCals = find_between(text, "calories from fat", "\n")
         self.totalFat = find_between(text, "total fat", "\n")
         self.satFat = find_between(text, "Sat Fat", "\n")
-        if self.satFat is "Not Found":
+        if self.satFat == "Not Found":
             self.satFat = find_between(text, "Sat. Fat", "\n")
         self.cholesterol = find_between(text, "cholesterol", "\n")
         self.sodium = find_between(text, "sodium", "\n")
@@ -75,5 +75,8 @@ class Label():
         print("protein:", self.protein)
         print("ingredients:", self.ingredients)
 
+    def labelString(self):
+        s = "serving size:"+ self.servingSize+ "\nservings per container:"+ self.servingsPer+"\ncalories:"+ self.calories+"\nfat calories:"+ self.fatCals+"\ntotal fat:"+ self.totalFat+"\nsaturated fats:"+ self.satFat+"\ncholesterol:"+ self.cholesterol+"\nsodium:"+ self.sodium+"\nfiber:"+ self.fiber+"\nsugars:"+ self.sugars+"\nprotein:"+ self.protein+"\ningredients:"+ self.ingredients
+        return s
 
     

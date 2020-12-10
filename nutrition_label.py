@@ -22,21 +22,31 @@ filePath = join(currentDir, "./images")
 for fileName in os.listdir(filePath):
     if fileName.lower().endswith(('.png', '.jpg', '.jpeg')):
         images.append(fileName)
-print(images)
+
+images = ["OAT.jpg"]
+
+fileText = ""
 
 # read image
 for image in images:
+    fileText = fileText + image + "\n********RAW DATA:*******\n"
     print(image)
     img = cv2.imread('images/'+image)
     # configure tesseract ocr
     custom_config = r'--oem 3 --psm 6'
     text = pytesseract.image_to_string(img, config=custom_config)
+    fileText = fileText + text
     print(text)
     #parse text into label
     label1 = Label(text)
+    fileText = fileText + "\n**********PARSE DATA:*********\n"+label1.labelString()
     label1.labelPrint()
+    fileText = fileText + "--------------------------------------\n"
     print("--------------------------------------")
     # img = cv2.imread('images/label.png')
+
+with open("data.txt", "w") as file:
+    file.write(fileText)
 
 #detect words
 # d = pytesseract.image_to_data(img, output_type=Output.DICT)
