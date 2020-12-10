@@ -251,7 +251,7 @@ servings per container:Not Found
 calories:170
 fat calories:Not Found
 total fat:2.5 3%
-saturated fats:Not Found
+saturated fats:0.5g 3%
 cholesterol:omg 0%
 sodium:280mg 12%
 total carbohydrates:28g 10%
@@ -341,7 +341,7 @@ servings per container:about 7
 calories:70
 fat calories:25
 total fat:3g 5%
-saturated fats:Not Found
+saturated fats:0.59 3%
 cholesterol:15mg 5%
 sodium:230mg 10%
 total carbohydrates:<1g 0%
@@ -401,7 +401,7 @@ servings per container:
 calories:130
 fat calories:Not Found
 total fat:0.59 1%
-saturated fats:Not Found
+saturated fats:0g 0%
 cholesterol:omg 0%
 sodium:100mg 4%
 total carbohydrates:33g 12%
@@ -474,7 +474,7 @@ servings per container:Not Found
 calories:100
 fat calories:Not Found
 total fat:2g 3%
-saturated fats:Not Found
+saturated fats:0g o%
 cholesterol:omg o%
 sodium:210mg 9%
 total carbohydrates:18g 7%
@@ -602,7 +602,7 @@ servings per container:
 calories:120
 fat calories:Not Found
 total fat:0g 0%
-saturated fats:Not Found
+saturated fats:0g 0%
 cholesterol:0mg 0%
 sodium:390mg 17%
 total carbohydrates:5g 2%
@@ -709,7 +709,7 @@ servings per container:
 calories:130
 fat calories:Not Found
 total fat:0g 0%
-saturated fats:Not Found
+saturated fats:0g 0%
 cholesterol:0mg 0%
 sodium:400mg 17%
 total carbohydrates:7g 3%
@@ -774,7 +774,7 @@ servings per container:
 calories:200
 fat calories:Not Found
 total fat:14g 18%
-saturated fats:Not Found
+saturated fats:3g 15%
 cholesterol:omg 0%
 sodium:35mg 2%
 total carbohydrates:159 5%
@@ -879,7 +879,7 @@ servings per container:Not Found
 calories:15
 fat calories:5
 total fat:0g 1%
-saturated fats:Not Found
+saturated fats:, trans fat,
 cholesterol:, dietary fiber, sugar alcohol, vitamin a,
 sodium:omg 0%
 total carbohydrates:2g 1%
@@ -1035,7 +1035,7 @@ servings per container:Not Found
 calories:15
 fat calories:Not Found
 total fat:059 1%
-saturated fats:Not Found
+saturated fats:og 0%
 cholesterol:omg 0%
 sodium:omg 0%
 total carbohydrates:Not Found
