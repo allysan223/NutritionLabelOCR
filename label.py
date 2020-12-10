@@ -17,21 +17,7 @@ def find_between(s, start, end):
 
 class Label():
     """
-    Serving Size cup
-    Servings per container 4
-    Calories 250 FatCal 120
-    Total Fat 130 20%
-    Sat Fat 99 40%
-    Cholesterol 28mg 12%
-    ‘Sodium 55mg 2%
-    Total Carbohydrate 30g 12%
-    Dietary Fiber 2g
-    Sugars 239
-    Protein 4g 8%
-    Ingredients: Cream, Skim Mik, Liquid
-    ‘Sugar, Water, Egg Yolks, Brown Sugar,
-    Mikfat, Peanut Ol, Sugar, Butter, Salt,
-    Carrageenan, Vanilla Extract. 
+    This is a Label class to extract and run functions on nutrition labels.
     """
     def __init__(self, text):
         self.text = text
@@ -89,7 +75,11 @@ class Label():
         print("ingredients:", self.ingredients)
 
     def labelString(self):
-        s = "serving size:"+ self.servingSize+ "\nservings per container:"+ self.servingsPer+"\ncalories:"+ self.calories+"\nfat calories:"+ self.fatCals+"\ntotal fat:"+ self.totalFat+"\nsaturated fats:"+ self.satFat+"\ncholesterol:"+ self.cholesterol+"\nsodium:"+ self.sodium+"\ntotal carbohydrates:"+ self.totalCarbs+"\nfiber:"+ self.fiber+"\nsugars:"+ self.sugars+"\nprotein:"+ self.protein+"\ningredients:"+ self.ingredients
+        s = ("serving size:"+ self.servingSize + "\nservings per container:" + self.servingsPer +
+                "\ncalories:"+ self.calories + "\nfat calories:" + self.fatCals + "\ntotal fat:" + 
+                self.totalFat + "\nsaturated fats:" + self.satFat + "\ncholesterol:" + self.cholesterol +
+                "\nsodium:" + self.sodium + "\ntotal carbohydrates:" + self.totalCarbs + "\nfiber:"+ self.fiber +
+                "\nsugars:" + self.sugars + "\nprotein:" + self.protein + "\ningredients:" + self.ingredients)
         return s
     
     def containsSugar(self):
