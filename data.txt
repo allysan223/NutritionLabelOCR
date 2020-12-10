@@ -191,7 +191,7 @@ Carrageenan, Vanilla Extract.
 serving size:cup
 servings per container:4
 calories:250
-fat calories:Not Found
+fat calories:120
 total fat:130 20%
 saturated fats:99 40%
 cholesterol:28mg 12%

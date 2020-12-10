@@ -52,6 +52,8 @@ class Label():
         self.satFat = find_between(text, "Sat Fat", "\n")
         if self.satFat == "Not Found":
             self.satFat = find_between(text, "Sat. Fat", "\n")
+        if self.satFat == "Not Found":
+            self.satFat = find_between(text, "Saturated Fat", "\n")
         self.cholesterol = find_between(text, "cholesterol", "\n")
         self.sodium = find_between(text, "sodium", "\n")
         self.totalCarbs = find_between(text, "Total Carbohydrate", "\n")
