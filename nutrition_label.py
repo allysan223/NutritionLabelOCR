@@ -20,12 +20,23 @@ images = []
 currentDir = dirname(__file__)
 filePath = join(currentDir, "./images")
 for fileName in os.listdir(filePath):
-    images.append(fileName)
+    if fileName.lower().endswith(('.png', '.jpg', '.jpeg')):
+        images.append(fileName)
 print(images)
 
 # read image
-img = cv2.imread('images/vanillaproteinpowder.jpg')
-# img = cv2.imread('images/label.png')
+for image in images:
+    print(image)
+    img = cv2.imread('images/'+image)
+    # configure tesseract ocr
+    custom_config = r'--oem 3 --psm 6'
+    text = pytesseract.image_to_string(img, config=custom_config)
+    print(text)
+    #parse text into label
+    label1 = Label(text)
+    label1.labelPrint()
+    print("--------------------------------------")
+    # img = cv2.imread('images/label.png')
 
 #detect words
 # d = pytesseract.image_to_data(img, output_type=Output.DICT)
@@ -45,13 +56,11 @@ img = cv2.imread('images/vanillaproteinpowder.jpg')
 # plt.imshow(img)
 # plt.show()
 
-# configure tesseract ocr
-custom_config = r'--oem 3 --psm 6'
-text = pytesseract.image_to_string(img, config=custom_config)
-print(text)
-
-print("Servings Per Container" in text)
-
-label1 = Label(text)
-label1.labelPrint()
-print(label1.servingSize)
+# # configure tesseract ocr
+# custom_config = r'--oem 3 --psm 6'
+# text = pytesseract.image_to_string(img, config=custom_config)
+# print(text)
+# #parse text into label
+# label1 = Label(text)
+# label1.labelPrint()
+# print(label1.servingSize)
