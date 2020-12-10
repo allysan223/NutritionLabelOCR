@@ -24,7 +24,6 @@ for fileName in os.listdir(filePath):
         images.append(fileName)
 
 # images = ["OAT.jpg"]
-
 fileText = ""
 
 # read image
@@ -44,23 +43,22 @@ for image in images:
     label1.labelPrint()
     #check if contains added sugars
     print("Contains added sugar:", str(label1.containsSugar()))
-    fileText = fileText + "\nContains added sugar:" + str(label1.containsSugar())
+    fileText = fileText + "\nContains added sugar: " + str(label1.containsSugar())
+    #end of label
     fileText = fileText + "\n--------------------------------------\n"
     print("--------------------------------------")
     # img = cv2.imread('images/label.png')
-    
-
-
 
 # Save data log to text file
 with open("data.txt", "w") as file:
     file.write(fileText)
 
 #detect words
+# img = cv2.imread('images/mochapowder.jpg')
 # d = pytesseract.image_to_data(img, output_type=Output.DICT)
 # print(d.keys())
 
-#generate boxes around words
+# # generate boxes around words
 # n_boxes = len(d['text'])
 # for i in range(n_boxes):
 #     if int(d['conf'][i]) > 60:

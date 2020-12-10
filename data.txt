@@ -59,7 +59,7 @@ Flavor with Other Natural Flavors, Monk Fruit Extract,
 Probiotic (Organic Inulin, Bacillus coagulans GBI-30
 6086).
 
-Contains added sugar:True
+Contains added sugar: True
 --------------------------------------
 dietcoke.jpg
 ********RAW DATA:*******
@@ -104,7 +104,7 @@ FLAVORS, SODIUM BENZOATE AND POTASSIUM
 SORBATE (AS PRESERVATIVES), RED 40, CALCIUM
 DISODIUM EDTA (TO PROTECT FLAVOR).
 
-Contains added sugar:True
+Contains added sugar: True
 --------------------------------------
 ALMONDROCA.jpg
 ********RAW DATA:*******
@@ -166,7 +166,7 @@ Iron Omg 0% © Potas. 85mg 2%
 ase pd (i)
 @
 
-Contains added sugar:True
+Contains added sugar: True
 --------------------------------------
 label.png
 ********RAW DATA:*******
@@ -211,7 +211,7 @@ ingredients: Cream, Skim Mik, Liquid
 Mikfat, Peanut Ol, Sugar, Butter, Salt,
 Carrageenan, Vanilla Extract.
 
-Contains added sugar:True
+Contains added sugar: True
 --------------------------------------
 OATS.jpg
 ********RAW DATA:*******
@@ -273,7 +273,7 @@ Acid, Natural and Artificial Flavor,
 Molasses, Maple Syrup, Wheat Starch.
 CONTAINS SOY AND WHEAT.
 
-Contains added sugar:True
+Contains added sugar: True
 --------------------------------------
 cilantrolime.png
 ********RAW DATA:*******
@@ -364,7 +364,7 @@ Pork Rinds, Sunflower Oil, Salt, Tapioca Starch,
 Sugar, Citric Acid, Lime Powder, Cilantro, and
 Natural Flavors.
 
-Contains added sugar:True
+Contains added sugar: True
 --------------------------------------
 PuffinsMultigrain.jpg
 ********RAW DATA:*******
@@ -429,7 +429,7 @@ Salt, Natural Flavor, Caramel Color,
 Annatto (for color), Tocopherols
 (antioxidants to maintain freshness).
 
-Contains added sugar:True
+Contains added sugar: True
 --------------------------------------
 OAT.jpg
 ********RAW DATA:*******
@@ -508,7 +508,7 @@ iaidoxin Hydrochloride Witamin
 Bb), Riboflavin (Vitamin Be). Thiamin
 Mononitrate (Vitamin B1), Folic Acid.
 
-Contains added sugar:True
+Contains added sugar: True
 --------------------------------------
 mac.jpg
 ********RAW DATA:*******
@@ -577,7 +577,7 @@ phosphate, catcium phosphate, milk, yellow
 5, yellow 6, enzymes, cheese culture)
 Contains: Milk, Wheat
 
-Contains added sugar:False
+Contains added sugar: False
 --------------------------------------
 chocolatepowder.jpg
 ********RAW DATA:*******
@@ -633,7 +633,7 @@ EGG WHITES, LESS THAN 2% OF: COCOA
 FLAVORS (DEXTROSE, NATURAL
 FLAVORS), SUCRALOSE
 
-Contains added sugar:True
+Contains added sugar: True
 --------------------------------------
 FrPebbles.jpg
 ********RAW DATA:*******
@@ -685,7 +685,7 @@ fiber:Not Found
 sugars:Not Found
 protein:25 50%
 ingredients:Not Found
-Contains added sugar:None
+Contains added sugar: None
 --------------------------------------
 mochapowder.jpg
 ********RAW DATA:*******
@@ -747,7 +747,7 @@ FLAVORS, SILICON DIOXIDE  (ANTI-
 CAKING AGENT)), COCOA (PROCESSED
 WITH ALKALI), SUCRALOSE
 
-Contains added sugar:True
+Contains added sugar: True
 --------------------------------------
 chocolateBar.png
 ********RAW DATA:*******
@@ -813,7 +813,7 @@ CONTAINS ALMONDS, PEANUTS AND SOY.
 MANUFACTURED IN A FACILITY THAT ALSO PROCESSES
 OTHER TREE NUTS, MILK AND EGGS.
 
-Contains added sugar:True
+Contains added sugar: True
 --------------------------------------
 nutrition facts.jpg
 ********RAW DATA:*******
@@ -867,7 +867,7 @@ fiber:Not Found
 sugars:og o%
 protein:Not Found
 ingredients:Not Found
-Contains added sugar:None
+Contains added sugar: None
 --------------------------------------
 Mocha.jpg
 ********RAW DATA:*******
@@ -927,7 +927,7 @@ Distributed by WillPower Labs, Inc.
 San Francisco, CA 94118
 Made in the U.S.A.
 
-Contains added sugar:True
+Contains added sugar: True
 --------------------------------------
 oreos.jpeg
 ********RAW DATA:*******
@@ -1021,7 +1021,97 @@ Total Carbohydrate 300g 375g |
 Dietary Fiber 259 30g oe |
 SSR ERS a eee ae ey ee Paves eres See One Mes ery oe ES le gi eS ae a 3 |
 
-Contains added sugar:True
+Contains added sugar: True
+--------------------------------------
+no_sugar2.jpg
+********RAW DATA:*******
+Chicken Chili
+Nutrition Facts
+Serving Size: 2 Cups (432g)
+
+Servings Per Container: 6
+Pe —“C:CSSCSCSC‘Ci‘ié‘sa
+Amount Per Serving
+Calories 270 Calories from Fat 40
+a
+% Daily Value*
+Total Fat 4.59 T%
+Saturated Fat 0g 0%
+Trans Fat 0g
+Cholesterol 45mg 15%
+Sodium 770mg 32%
+Total Carbohydrate 329 11%
+Dietary Fiber 10g 40%
+Sugars 6g
+Protein 269
+PC T—“CsSCSCs‘C‘Ciés
+Vitamin A 30% : Vitamin C 50%
+Calcium 10% ° Iron 20%
+* Percent Daily Values are based on a 2,000 calorie diet.
+Your daily values may be higher or lower depending on
+your calorie needs:
+Calories: 2,000 2,500
+Total Fat Less than 65g 80g
+Sat Fat Less than 20g 25g
+Cholesterol Less than 300mg 300mg
+Sodium Less than 2,400mg 2,400mg
+Total Carbohydrate 300g 375g
+Dietary Fiber GG
+
+INGREDIENTS: DICED TOMATOES,
+
+BONELESS SKINLESS CHICKEN
+
+BREAST, BLACK BEANS, SOUP,
+
+CHICKEN BROTH, LOW _— SODIUM,
+
+CANNED, CORN, SWEET, YELLOW,
+
+FROZEN, KERNELS CUT OFF COB,
+
+BOILED, DRAINED, WITHOUT SALT,
+
+PEPPERS, CHILI, GREEN, CANNED,
+
+CHILI! POWDER, CANOLA OIL, SALT,
+
+CUMIN, CAYENNE PEPPER
+
+**********PARSE DATA:*********
+serving size:2 cups (432g)
+servings per container:6
+calories:270
+fat calories:40
+total fat:4.59 t%
+saturated fats:less than 20g 25g
+cholesterol:45mg 15%
+sodium:770mg 32%
+total carbohydrates:329 11%
+fiber:10g 40%
+sugars:6g
+protein:269
+ingredients: DICED TOMATOES,
+
+BONELESS SKINLESS CHICKEN
+
+BREAST, BLACK BEANS, SOUP,
+
+CHICKEN BROTH, LOW _— SODIUM,
+
+CANNED, CORN, SWEET, YELLOW,
+
+FROZEN, KERNELS CUT OFF COB,
+
+BOILED, DRAINED, WITHOUT SALT,
+
+PEPPERS, CHILI, GREEN, CANNED,
+
+CHILI! POWDER, CANOLA OIL, SALT,
+
+CUMIN, CAYENNE PEPPER
+
+Contains added sugar: False
 --------------------------------------
 chocolate.png
 ********RAW DATA:*******
@@ -1085,7 +1175,92 @@ fan golstn. atone,
 Distribute by Ortek Therapeutic ne
 Rouge Melgar ears
 
-Contains added sugar:True
+Contains added sugar: True
+--------------------------------------
+no_sugar3.png
+********RAW DATA:*******
+Nutrition Facts
+‘About 3.5 servings pr container
+‘Serving size 1/2 Cup (130
+TAmount Per serng
+Calories 130
+‘eDaily Value
+Total Fat 1g 2%
+Saturated Fat 0g 0%,
+Trans Fat 0g
+Cholesterol Omg 0%
+‘Sodium 470mg 20%
+Total Carbohydrate 229 8%
+Dietary Fiber 8g 28%
+Total Sugars 1g
+Includes Og Added Su O%,
+Protein 7
+Tyromm Dom o
+Tron 10%
+Potassium 360m a
+The Oui Va (OV) You bow ch a raiaina
+Serving of ed contbutes toa day et. 2.000 clos @
+INGREDIENTS: PREPARED PINTO BEANS,
+WATER, CONTAINS 2% OR LESS: SALT, CHILI
+PEPPER, CORNSTARCH MODIFIED, SOYBEAN
+OIL, SPICE, ONION POWDER, GARLIC POWDER
+CUMIN.
+
+**********PARSE DATA:*********
+serving size:1/2 cup (130
+servings per container:Not Found
+calories:130
+fat calories:Not Found
+total fat:1g 2%
+saturated fats:0g 0%,
+cholesterol:omg 0%
+sodium:470mg 20%
+total carbohydrates:229 8%
+fiber:8g 28%
+sugars:1g
+protein:7
+ingredients: PREPARED PINTO BEANS,
+WATER, CONTAINS 2% OR LESS: SALT, CHILI
+PEPPER, CORNSTARCH MODIFIED, SOYBEAN
+OIL, SPICE, ONION POWDER, GARLIC POWDER
+CUMIN.
+
+Contains added sugar: False
+--------------------------------------
+no_sugar1.png
+********RAW DATA:*******
+Nutrition Facts|ssc.e'siisrysine
+|Serving Size 2 thsps (289) ele ee
+Serge Pe Conner Bf ap, ce 202
+See ce se.
+Gstoies zt Catiesromeaea” sks 2, hy
+ae eat x
+Total Fat ig Wikre ga
+Sata Fatdg 22 fee snes Pons
+Cholesterol 20mg Tiineweaare se eee
+Sodium fing (et eet ci. apr
+[otal Carbohydrate <i9 0% ona torts annonce
+Protin Clete rete
+[Vtamin A8% © Vitamin C8% lesercrc ac com eee
+Caléum fo% * on o% |Get nd ees
+Hesepteat cere singe re
+Saeeae
+
+**********PARSE DATA:*********
+serving size:2 thsps (289) ele ee
+servings per container:Not Found
+calories:Not Found
+fat calories:Not Found
+total fat:ig wikre ga
+saturated fats:Not Found
+cholesterol:20mg tiineweaare se eee
+sodium:fing (et eet ci. apr
+total carbohydrates:Not Found
+fiber:Not Found
+sugars:Not Found
+protein:Not Found
+ingredients:Not Found
+Contains added sugar: None
 --------------------------------------
 image.png
 ********RAW DATA:*******
@@ -1126,5 +1301,5 @@ fiber:Not Found
 sugars:Not Found
 protein:Not Found
 ingredients:Not Found
-Contains added sugar:None
+Contains added sugar: None
 --------------------------------------
