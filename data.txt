@@ -684,8 +684,18 @@ total carbohydrates:Not Found
 fiber:Not Found
 sugars:Not Found
 protein:25 50%
-ingredients:Not Found
-Contains added sugar: None
+ingredients: FYOROLYZED WHEY
+PROTEN SOLATE, WHY PROTEN
+SOUATE, NATURAL AND ATC
+FLAVORS, LSS THAN 1% OF EDIBLE
+GLITER (GUM ATAB FDRCRED #3,
+FDR RED #40, FOAC ALLE
+FDA YELLOW 8) SALT, SOY
+LECH, SUCROSE. STEWOL
+GLYCOSDES STEVIA)
+CONTAINS: MILK AND SOY.
+
+Contains added sugar: True
 --------------------------------------
 mochapowder.jpg
 ********RAW DATA:*******

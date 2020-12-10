@@ -66,6 +66,12 @@ class Label():
             # self.ingredients = text.split("Ingredients: ")[1]
         except IndexError:
             self.ingredients = "Not Found"
+        if self.ingredients == "Not Found":
+            try:
+                self.ingredients = re.split("GREDIENTS:", text, flags=re.IGNORECASE)[1]
+                # self.ingredients = text.split("Ingredients: ")[1]
+            except IndexError:
+                self.ingredients = "Not Found"
             
     def labelPrint(self):
         print("serving size:", self.servingSize)
