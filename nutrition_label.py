@@ -29,6 +29,7 @@ fileText = ""
 
 # read image
 for image in images:
+    # Run OCR on each image
     fileText = fileText + image + "\n********RAW DATA:*******\n"
     print(image)
     img = cv2.imread('images/'+image)
@@ -41,14 +42,17 @@ for image in images:
     label1 = Label(text)
     fileText = fileText + "\n**********PARSE DATA:*********\n"+label1.labelString()
     label1.labelPrint()
-    fileText = fileText + "--------------------------------------\n"
+    #check if contains added sugars
+    print("Contains added sugar:", str(label1.containsSugar()))
+    fileText = fileText + "\nContains added sugar:" + str(label1.containsSugar())
+    fileText = fileText + "\n--------------------------------------\n"
     print("--------------------------------------")
     # img = cv2.imread('images/label.png')
     
-print(label1.calories)
 
 
 
+# Save data log to text file
 with open("data.txt", "w") as file:
     file.write(fileText)
 

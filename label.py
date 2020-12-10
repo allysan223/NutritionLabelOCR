@@ -85,5 +85,15 @@ class Label():
     def labelString(self):
         s = "serving size:"+ self.servingSize+ "\nservings per container:"+ self.servingsPer+"\ncalories:"+ self.calories+"\nfat calories:"+ self.fatCals+"\ntotal fat:"+ self.totalFat+"\nsaturated fats:"+ self.satFat+"\ncholesterol:"+ self.cholesterol+"\nsodium:"+ self.sodium+"\ntotal carbohydrates:"+ self.totalCarbs+"\nfiber:"+ self.fiber+"\nsugars:"+ self.sugars+"\nprotein:"+ self.protein+"\ningredients:"+ self.ingredients
         return s
+    
+    def containsSugar(self):
+        sugars = ["syrup", "ose", "sugar", "honey", "molasses", "caramel", "agave"]
+        if self.ingredients == "Not Found":
+            return None
+        else:
+            for sugar in sugars:
+                if sugar in self.ingredients.lower():
+                    return True
+        return False
 
     

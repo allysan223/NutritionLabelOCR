@@ -58,7 +58,9 @@ Root Fiber), Chia Seed, Natural Vanilla Flavor Powder
 Flavor with Other Natural Flavors, Monk Fruit Extract,
 Probiotic (Organic Inulin, Bacillus coagulans GBI-30
 6086).
---------------------------------------
+
+Contains added sugar:True
+--------------------------------------
 dietcoke.jpg
 ********RAW DATA:*******
 Nutrition Facts
@@ -101,7 +103,9 @@ CANE SUGAR, CITRIC ACID, NATURAL AND ARTIFICIAL
 FLAVORS, SODIUM BENZOATE AND POTASSIUM
 SORBATE (AS PRESERVATIVES), RED 40, CALCIUM
 DISODIUM EDTA (TO PROTECT FLAVOR).
---------------------------------------
+
+Contains added sugar:True
+--------------------------------------
 ALMONDROCA.jpg
 ********RAW DATA:*******
 ae ®
@@ -161,7 +165,9 @@ Vit. D Omeg 0% * Calcium 28mg 2%
 Iron Omg 0% © Potas. 85mg 2%
 ase pd (i)
 @
---------------------------------------
+
+Contains added sugar:True
+--------------------------------------
 label.png
 ********RAW DATA:*******
 Nutrition Facts
@@ -204,7 +210,9 @@ ingredients: Cream, Skim Mik, Liquid
 ‘Sugar, Water, Egg Yolks, Brown Sugar,
 Mikfat, Peanut Ol, Sugar, Butter, Salt,
 Carrageenan, Vanilla Extract.
---------------------------------------
+
+Contains added sugar:True
+--------------------------------------
 OATS.jpg
 ********RAW DATA:*******
 Nutrition Facts
@@ -264,7 +272,9 @@ Sugar, Sugar, Flaxseed, Salt, Stearic
 Acid, Natural and Artificial Flavor,
 Molasses, Maple Syrup, Wheat Starch.
 CONTAINS SOY AND WHEAT.
---------------------------------------
+
+Contains added sugar:True
+--------------------------------------
 cilantrolime.png
 ********RAW DATA:*******
 Nutrition Facts
@@ -353,7 +363,9 @@ ingredients:
 Pork Rinds, Sunflower Oil, Salt, Tapioca Starch,
 Sugar, Citric Acid, Lime Powder, Cilantro, and
 Natural Flavors.
---------------------------------------
+
+Contains added sugar:True
+--------------------------------------
 PuffinsMultigrain.jpg
 ********RAW DATA:*******
 About 7 servings per container
@@ -416,7 +428,9 @@ Fiber, Calcium Carbonate, Sea
 Salt, Natural Flavor, Caramel Color,
 Annatto (for color), Tocopherols
 (antioxidants to maintain freshness).
---------------------------------------
+
+Contains added sugar:True
+--------------------------------------
 OAT.jpg
 ********RAW DATA:*******
 Serving size 1 pouch (28g)
@@ -493,7 +507,9 @@ fiitamin 3), Vitamin A Palmitate,
 iaidoxin Hydrochloride Witamin
 Bb), Riboflavin (Vitamin Be). Thiamin
 Mononitrate (Vitamin B1), Folic Acid.
---------------------------------------
+
+Contains added sugar:True
+--------------------------------------
 mac.jpg
 ********RAW DATA:*******
 Macaroniand cheese
@@ -560,7 +576,9 @@ than 2% of citric acid, lactic acid, sodium
 phosphate, catcium phosphate, milk, yellow
 5, yellow 6, enzymes, cheese culture)
 Contains: Milk, Wheat
---------------------------------------
+
+Contains added sugar:False
+--------------------------------------
 chocolatepowder.jpg
 ********RAW DATA:*******
 Nutrition Facts
@@ -614,7 +632,9 @@ EGG WHITES, LESS THAN 2% OF: COCOA
 (PROCESSED WITH ALKALI), NATURAL
 FLAVORS (DEXTROSE, NATURAL
 FLAVORS), SUCRALOSE
---------------------------------------
+
+Contains added sugar:True
+--------------------------------------
 FrPebbles.jpg
 ********RAW DATA:*******
 Nutrition Facts
@@ -664,7 +684,9 @@ total carbohydrates:Not Found
 fiber:Not Found
 sugars:Not Found
 protein:25 50%
-ingredients:Not Found--------------------------------------
+ingredients:Not Found
+Contains added sugar:None
+--------------------------------------
 mochapowder.jpg
 ********RAW DATA:*******
 Nutrition Facts
@@ -724,7 +746,9 @@ NATURAL FLAVORS, ARTIFICIAL
 FLAVORS, SILICON DIOXIDE  (ANTI-
 CAKING AGENT)), COCOA (PROCESSED
 WITH ALKALI), SUCRALOSE
---------------------------------------
+
+Contains added sugar:True
+--------------------------------------
 chocolateBar.png
 ********RAW DATA:*******
 Nutty Dark Chocolate
@@ -788,7 +812,9 @@ Sunflower lecithin, and Salt.
 CONTAINS ALMONDS, PEANUTS AND SOY.
 MANUFACTURED IN A FACILITY THAT ALSO PROCESSES
 OTHER TREE NUTS, MILK AND EGGS.
---------------------------------------
+
+Contains added sugar:True
+--------------------------------------
 nutrition facts.jpg
 ********RAW DATA:*******
 Nutrition Facts
@@ -840,7 +866,9 @@ total carbohydrates:Not Found
 fiber:Not Found
 sugars:og o%
 protein:Not Found
-ingredients:Not Found--------------------------------------
+ingredients:Not Found
+Contains added sugar:None
+--------------------------------------
 Mocha.jpg
 ********RAW DATA:*******
 Serving Size 1 Piece (3g)
@@ -898,7 +926,9 @@ fee and Natural & Artificial Flavors*.
 Distributed by WillPower Labs, Inc.
 San Francisco, CA 94118
 Made in the U.S.A.
---------------------------------------
+
+Contains added sugar:True
+--------------------------------------
 oreos.jpeg
 ********RAW DATA:*******
 ti Me : :
@@ -990,7 +1020,9 @@ Potassium 3,500mg 3,500mg
 Total Carbohydrate 300g 375g |
 Dietary Fiber 259 30g oe |
 SSR ERS a eee ae ey ee Paves eres See One Mes ery oe ES le gi eS ae a 3 |
---------------------------------------
+
+Contains added sugar:True
+--------------------------------------
 chocolate.png
 ********RAW DATA:*******
 Nutrition Facts
@@ -1052,7 +1084,9 @@ Dean roa sy, cay ond kosher
 fan golstn. atone,
 Distribute by Ortek Therapeutic ne
 Rouge Melgar ears
---------------------------------------
+
+Contains added sugar:True
+--------------------------------------
 image.png
 ********RAW DATA:*******
 Nutrition
@@ -1091,4 +1125,6 @@ total carbohydrates:Not Found
 fiber:Not Found
 sugars:Not Found
 protein:Not Found
-ingredients:Not Found--------------------------------------
+ingredients:Not Found
+Contains added sugar:None
+--------------------------------------
