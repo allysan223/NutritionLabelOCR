@@ -13,6 +13,7 @@ import matplotlib.image as mpimg
 from os.path import dirname, join
 from label import *
 import os
+from collections import Counter
 
 # show boxes around words detected by pytesseract
 def printboxes(imageName):
@@ -72,5 +73,11 @@ with open("data.txt", "w") as file:
     file.write(fileText)
 
 #read in ground truth
-f = open("./groundtruth/vanillaprotienpowder.txt", "r")
-print(f.read())
+with open("./groundtruth/vanillaprotienpowder.txt", "r") as f:
+    GTtext = f.read()
+    #check number of characters that match
+    numMatches = sum((Counter(GTtext) & Counter(label1.labelString())).values())
+    total = len(GTtext)
+    accuracy = numMatches/total * 100
+    print(accuracy)
+
