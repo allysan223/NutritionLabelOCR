@@ -33,6 +33,16 @@ def printboxes(imageName):
     cv2.imshow('img', img)
     cv2.waitKey(0)
 
+def calcAccuracy(GTFile, label):
+    #read in ground truth
+    with open("./groundtruth/"+GTFile, "r") as f:
+        GTtext = f.read()
+        #check number of characters that match
+        numMatches = sum((Counter(GTtext) & Counter(label.labelString())).values())
+        total = len(GTtext)
+        accuracy = numMatches/total * 100
+        print(accuracy)
+
 
 # get list of images from image set
 images = []
@@ -42,7 +52,14 @@ for fileName in os.listdir(filePath):
     if fileName.lower().endswith(('.png', '.jpg', '.jpeg')):
         images.append(fileName)
 
-images = ["vanillaproteinpowder.jpg"]
+
+# Get list of ground truths
+GTfiles = []
+for GTfileName in os.listdir('./groundtruth'):
+    if GTfileName.lower().endswith(('.txt')):
+        GTfiles.append(GTfileName)
+
+#images = ["vanillaproteinpowder.jpg"]
 fileText = ""
 
 # read image
@@ -55,11 +72,11 @@ for image in images:
     custom_config = r'--oem 3 --psm 6'
     text = pytesseract.image_to_string(img, config=custom_config)
     fileText = fileText + text
-    print(text)
+    #print(text)
     #parse text into label
     label1 = Label(text)
     fileText = fileText + "\n**********PARSE DATA:*********\n"+label1.labelString()
-    label1.labelPrint()
+    #label1.labelPrint()
     #check if contains added sugars
     print("Contains added sugar:", str(label1.containsSugar()))
     fileText = fileText + "\nContains added sugar: " + str(label1.containsSugar())
@@ -67,10 +84,19 @@ for image in images:
     fileText = fileText + "\n--------------------------------------\n"
     print("--------------------------------------")
     # img = cv2.imread('images/label.png')
+    
+    #find matching ground truth file if exists
+    for GTfile in GTfiles:
+        print(GTfile.split(".")[0] )
+        if GTfile.split(".")[0] == image.split(".")[0]:
+            print("MATCHHHH",GTfile, image)
+            print(calcAccuracy(GTfile, label1))
+            break
 
 # Save data log to text file
 with open("data.txt", "w") as file:
     file.write(fileText)
+
 
 #read in ground truth
 with open("./groundtruth/vanillaprotienpowder.txt", "r") as f:
