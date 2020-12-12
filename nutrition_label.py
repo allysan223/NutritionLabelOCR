@@ -41,7 +41,8 @@ def calcAccuracy(GTFile, label):
         numMatches = sum((Counter(GTtext) & Counter(label.labelString())).values())
         total = len(GTtext)
         accuracy = numMatches/total * 100
-        print(accuracy)
+        #print(accuracy)
+    return accuracy
 
 
 # get list of images from image set
@@ -72,38 +73,32 @@ for image in images:
     custom_config = r'--oem 3 --psm 6'
     text = pytesseract.image_to_string(img, config=custom_config)
     fileText = fileText + text
-    #print(text)
+    print(text)
     #parse text into label
     label1 = Label(text)
     fileText = fileText + "\n**********PARSE DATA:*********\n"+label1.labelString()
-    #label1.labelPrint()
+    label1.labelPrint()
+
+    #find matching ground truth file if exists
+    for GTfile in GTfiles:
+        if GTfile.split(".")[0] == image.split(".")[0]:
+            accuracy = calcAccuracy(GTfile, label1)
+            print(accuracy)
+            fileText = fileText + "\nAccuracy: " + str(accuracy)
+            break
+
     #check if contains added sugars
     print("Contains added sugar:", str(label1.containsSugar()))
     fileText = fileText + "\nContains added sugar: " + str(label1.containsSugar())
+    
     #end of label
     fileText = fileText + "\n--------------------------------------\n"
     print("--------------------------------------")
     # img = cv2.imread('images/label.png')
-    
-    #find matching ground truth file if exists
-    for GTfile in GTfiles:
-        print(GTfile.split(".")[0] )
-        if GTfile.split(".")[0] == image.split(".")[0]:
-            print("MATCHHHH",GTfile, image)
-            print(calcAccuracy(GTfile, label1))
-            break
 
 # Save data log to text file
 with open("data.txt", "w") as file:
     file.write(fileText)
 
 
-#read in ground truth
-with open("./groundtruth/vanillaprotienpowder.txt", "r") as f:
-    GTtext = f.read()
-    #check number of characters that match
-    numMatches = sum((Counter(GTtext) & Counter(label1.labelString())).values())
-    total = len(GTtext)
-    accuracy = numMatches/total * 100
-    print(accuracy)
 

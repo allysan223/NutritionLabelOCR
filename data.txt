@@ -59,6 +59,7 @@ Flavor with Other Natural Flavors, Monk Fruit Extract,
 Probiotic (Organic Inulin, Bacillus coagulans GBI-30
 6086).
 
+Accuracy: 92.76139410187668
 Contains added sugar: True
 --------------------------------------
 dietcoke.jpg
@@ -104,6 +105,7 @@ FLAVORS, SODIUM BENZOATE AND POTASSIUM
 SORBATE (AS PRESERVATIVES), RED 40, CALCIUM
 DISODIUM EDTA (TO PROTECT FLAVOR).
 
+Accuracy: 64.4607843137255
 Contains added sugar: True
 --------------------------------------
 ALMONDROCA.jpg
@@ -166,6 +168,7 @@ Iron Omg 0% © Potas. 85mg 2%
 ase pd (i)
 @
 
+Accuracy: 87.3767258382643
 Contains added sugar: True
 --------------------------------------
 label.png
@@ -211,6 +214,7 @@ ingredients: Cream, Skim Mik, Liquid
 Mikfat, Peanut Ol, Sugar, Butter, Salt,
 Carrageenan, Vanilla Extract.
 
+Accuracy: 94.36997319034852
 Contains added sugar: True
 --------------------------------------
 OATS.jpg
@@ -364,6 +368,7 @@ Pork Rinds, Sunflower Oil, Salt, Tapioca Starch,
 Sugar, Citric Acid, Lime Powder, Cilantro, and
 Natural Flavors.
 
+Accuracy: 92.43697478991596
 Contains added sugar: True
 --------------------------------------
 PuffinsMultigrain.jpg
@@ -577,6 +582,7 @@ phosphate, catcium phosphate, milk, yellow
 5, yellow 6, enzymes, cheese culture)
 Contains: Milk, Wheat
 
+Accuracy: 95.44072948328267
 Contains added sugar: False
 --------------------------------------
 chocolatepowder.jpg
@@ -633,6 +639,7 @@ EGG WHITES, LESS THAN 2% OF: COCOA
 FLAVORS (DEXTROSE, NATURAL
 FLAVORS), SUCRALOSE
 
+Accuracy: 69.12928759894459
 Contains added sugar: True
 --------------------------------------
 FrPebbles.jpg
@@ -695,6 +702,7 @@ LECH, SUCROSE. STEWOL
 GLYCOSDES STEVIA)
 CONTAINS: MILK AND SOY.
 
+Accuracy: 62.44979919678715
 Contains added sugar: True
 --------------------------------------
 mochapowder.jpg
@@ -757,6 +765,7 @@ FLAVORS, SILICON DIOXIDE  (ANTI-
 CAKING AGENT)), COCOA (PROCESSED
 WITH ALKALI), SUCRALOSE
 
+Accuracy: 99.56989247311829
 Contains added sugar: True
 --------------------------------------
 chocolateBar.png
@@ -823,6 +832,7 @@ CONTAINS ALMONDS, PEANUTS AND SOY.
 MANUFACTURED IN A FACILITY THAT ALSO PROCESSES
 OTHER TREE NUTS, MILK AND EGGS.
 
+Accuracy: 96.21212121212122
 Contains added sugar: True
 --------------------------------------
 nutrition facts.jpg
@@ -1185,6 +1195,7 @@ fan golstn. atone,
 Distribute by Ortek Therapeutic ne
 Rouge Melgar ears
 
+Accuracy: 89.1826923076923
 Contains added sugar: True
 --------------------------------------
 no_sugar3.png
@@ -1236,80 +1247,4 @@ OIL, SPICE, ONION POWDER, GARLIC POWDER
 CUMIN.
 
 Contains added sugar: False
---------------------------------------
-no_sugar1.png
-********RAW DATA:*******
-Nutrition Facts|ssc.e'siisrysine
-|Serving Size 2 thsps (289) ele ee
-Serge Pe Conner Bf ap, ce 202
-See ce se.
-Gstoies zt Catiesromeaea” sks 2, hy
-ae eat x
-Total Fat ig Wikre ga
-Sata Fatdg 22 fee snes Pons
-Cholesterol 20mg Tiineweaare se eee
-Sodium fing (et eet ci. apr
-[otal Carbohydrate <i9 0% ona torts annonce
-Protin Clete rete
-[Vtamin A8% © Vitamin C8% lesercrc ac com eee
-Caléum fo% * on o% |Get nd ees
-Hesepteat cere singe re
-Saeeae
-
-**********PARSE DATA:*********
-serving size:2 thsps (289) ele ee
-servings per container:Not Found
-calories:Not Found
-fat calories:Not Found
-total fat:ig wikre ga
-saturated fats:Not Found
-cholesterol:20mg tiineweaare se eee
-sodium:fing (et eet ci. apr
-total carbohydrates:Not Found
-fiber:Not Found
-sugars:Not Found
-protein:Not Found
-ingredients:Not Found
-Contains added sugar: None
---------------------------------------
-image.png
-********RAW DATA:*******
-Nutrition
-Facts Le ee
-soe Sewtneser (ra) Sa Pathy eT os
-———
-Powel rag RL 4 Po,
-Fat Cal 160 —————E——
-Sect 10ng 105
-[Berea at vates OV) 8% Vaamin A 10% + ViteminC 6% + Celoum 35% + kon 15%
-GREDENTE Pes Cra et Fin, Seen 0X Youd Sapa St Cason
-PED Ta fares ni a ae ber Cate hemeacoa ern
-Serre aie ae einen er eatae
-Seer perenne bane renee eceaactes Fon ater ncaa
-oelen Weassaroees rooee eames see rece cia gees
-aa hate tr an went ashe be pt cs a ae
-Toc Batam Schone Wp pa mae seem ten
-Eee Lape cs ee Oa te re ee
-pala ery pt ele keep
-area eee ee ee eee es
-ee eee ee
-Serta ee: irae le er one gk Ber cee
-Sees se eee
-conan: x SOMES. EAT
-
-**********PARSE DATA:*********
-serving size:Not Found
-servings per container:Not Found
-calories:Not Found
-fat calories:Not Found
-total fat:Not Found
-saturated fats:Not Found
-cholesterol:Not Found
-sodium:Not Found
-total carbohydrates:Not Found
-fiber:Not Found
-sugars:Not Found
-protein:Not Found
-ingredients:Not Found
-Contains added sugar: None
 --------------------------------------

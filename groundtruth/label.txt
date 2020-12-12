@@ -10,7 +10,7 @@ total carbohydrates: 30g 12%
 fiber: 2g
 sugars: 23g
 protein: 4g 8%
-ingredients: Ingredients: Cream, Skim Milk, Liquid
+ingredients: Cream, Skim Milk, Liquid
 ‘Sugar, Water, Egg Yolks, Brown Sugar,
 Milkfat, Peanut Ol, Sugar, Butter, Salt,
 Carrageenan, Vanilla Extract.
