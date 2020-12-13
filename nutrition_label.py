@@ -14,6 +14,7 @@ from os.path import dirname, join
 from label import *
 import os
 from collections import Counter
+from tabulate import tabulate
 
 # show boxes around words detected by pytesseract
 def printboxes(imageName):
@@ -34,7 +35,7 @@ def printboxes(imageName):
     cv2.waitKey(0)
 
 def calcAccuracy(GTFile, label):
-    #read in ground truth
+    #read in ground truth for label
     with open("./groundtruth/"+GTFile, "r") as f:
         GTtext = f.read()
         #check number of characters that match
@@ -44,6 +45,7 @@ def calcAccuracy(GTFile, label):
         #print(accuracy)
     return accuracy
 
+#printboxes('mochapowder.jpg')
 
 # get list of images from image set
 images = []
@@ -61,7 +63,10 @@ for GTfileName in os.listdir('./groundtruth'):
         GTfiles.append(GTfileName)
 
 #images = ["vanillaproteinpowder.jpg"]
+
+#initialize text for log
 fileText = ""
+addedSugars = {}
 
 # read image
 for image in images:
@@ -88,8 +93,10 @@ for image in images:
             break
 
     #check if contains added sugars
-    print("Contains added sugar:", str(label1.containsSugar()))
-    fileText = fileText + "\nContains added sugar: " + str(label1.containsSugar())
+    hasSugar = label1.containsSugar()
+    print("Contains added sugar:", str(hasSugar))
+    fileText = fileText + "\nContains added sugar: " + str(hasSugar)
+    addedSugars[image] = hasSugar
     
     #end of label
     fileText = fileText + "\n--------------------------------------\n"
@@ -99,6 +106,10 @@ for image in images:
 # Save data log to text file
 with open("data.txt", "w") as file:
     file.write(fileText)
+
+# tabulate added sugars
+headers = ["Label Image", "Added Sugars?"]
+print(tabulate(addedSugars.items(), headers = headers))
 
 
 
