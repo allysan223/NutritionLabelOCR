@@ -59,8 +59,8 @@ Flavor with Other Natural Flavors, Monk Fruit Extract,
 Probiotic (Organic Inulin, Bacillus coagulans GBI-30
 6086).
 
-Accuracy: 92.76139410187668
 Contains added sugar: True
+Accuracy: 92.76139410187668
 --------------------------------------
 dietcoke.jpg
 ********RAW DATA:*******
@@ -105,8 +105,8 @@ FLAVORS, SODIUM BENZOATE AND POTASSIUM
 SORBATE (AS PRESERVATIVES), RED 40, CALCIUM
 DISODIUM EDTA (TO PROTECT FLAVOR).
 
-Accuracy: 64.4607843137255
 Contains added sugar: True
+Accuracy: 64.4607843137255
 --------------------------------------
 ALMONDROCA.jpg
 ********RAW DATA:*******
@@ -168,8 +168,8 @@ Iron Omg 0% © Potas. 85mg 2%
 ase pd (i)
 @
 
-Accuracy: 87.3767258382643
 Contains added sugar: True
+Accuracy: 87.3767258382643
 --------------------------------------
 label.png
 ********RAW DATA:*******
@@ -214,8 +214,8 @@ ingredients: Cream, Skim Mik, Liquid
 Mikfat, Peanut Ol, Sugar, Butter, Salt,
 Carrageenan, Vanilla Extract.
 
-Accuracy: 94.36997319034852
 Contains added sugar: True
+Accuracy: 94.36997319034852
 --------------------------------------
 OATS.jpg
 ********RAW DATA:*******
@@ -368,8 +368,8 @@ Pork Rinds, Sunflower Oil, Salt, Tapioca Starch,
 Sugar, Citric Acid, Lime Powder, Cilantro, and
 Natural Flavors.
 
-Accuracy: 92.43697478991596
 Contains added sugar: True
+Accuracy: 92.43697478991596
 --------------------------------------
 PuffinsMultigrain.jpg
 ********RAW DATA:*******
@@ -582,8 +582,8 @@ phosphate, catcium phosphate, milk, yellow
 5, yellow 6, enzymes, cheese culture)
 Contains: Milk, Wheat
 
-Accuracy: 95.44072948328267
 Contains added sugar: False
+Accuracy: 95.44072948328267
 --------------------------------------
 chocolatepowder.jpg
 ********RAW DATA:*******
@@ -639,8 +639,8 @@ EGG WHITES, LESS THAN 2% OF: COCOA
 FLAVORS (DEXTROSE, NATURAL
 FLAVORS), SUCRALOSE
 
-Accuracy: 69.12928759894459
 Contains added sugar: True
+Accuracy: 69.12928759894459
 --------------------------------------
 FrPebbles.jpg
 ********RAW DATA:*******
@@ -702,8 +702,8 @@ LECH, SUCROSE. STEWOL
 GLYCOSDES STEVIA)
 CONTAINS: MILK AND SOY.
 
-Accuracy: 62.44979919678715
 Contains added sugar: True
+Accuracy: 62.44979919678715
 --------------------------------------
 mochapowder.jpg
 ********RAW DATA:*******
@@ -765,8 +765,8 @@ FLAVORS, SILICON DIOXIDE  (ANTI-
 CAKING AGENT)), COCOA (PROCESSED
 WITH ALKALI), SUCRALOSE
 
-Accuracy: 99.56989247311829
 Contains added sugar: True
+Accuracy: 99.56989247311829
 --------------------------------------
 chocolateBar.png
 ********RAW DATA:*******
@@ -832,8 +832,8 @@ CONTAINS ALMONDS, PEANUTS AND SOY.
 MANUFACTURED IN A FACILITY THAT ALSO PROCESSES
 OTHER TREE NUTS, MILK AND EGGS.
 
-Accuracy: 96.21212121212122
 Contains added sugar: True
+Accuracy: 96.21212121212122
 --------------------------------------
 nutrition facts.jpg
 ********RAW DATA:*******
@@ -1195,8 +1195,8 @@ fan golstn. atone,
 Distribute by Ortek Therapeutic ne
 Rouge Melgar ears
 
-Accuracy: 89.1826923076923
 Contains added sugar: True
+Accuracy: 89.1826923076923
 --------------------------------------
 no_sugar3.png
 ********RAW DATA:*******

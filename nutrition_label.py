@@ -64,9 +64,9 @@ for GTfileName in os.listdir('./groundtruth'):
 
 #images = ["vanillaproteinpowder.jpg"]
 
-#initialize text for log
-fileText = ""
-addedSugars = {}
+#initialize variables
+fileText = "" #text for log
+labelData = {} #stores label data - image name, has sugar, accuracy
 
 # read image
 for image in images:
@@ -84,19 +84,25 @@ for image in images:
     fileText = fileText + "\n**********PARSE DATA:*********\n"+label1.labelString()
     label1.labelPrint()
 
+    #check if contains added sugars
+    hasSugar = label1.containsSugar()
+    print("Contains added sugar:", str(hasSugar))
+    fileText = fileText + "\nContains added sugar: " + str(hasSugar)
+
     #find matching ground truth file if exists
     for GTfile in GTfiles:
         if GTfile.split(".")[0] == image.split(".")[0]:
             accuracy = calcAccuracy(GTfile, label1)
             print(accuracy)
             fileText = fileText + "\nAccuracy: " + str(accuracy)
+            # add label data
+            labelData[image] = (hasSugar, "{:.2f}".format(accuracy))
             break
+        else:
+            labelData[image] = (hasSugar, "")
 
-    #check if contains added sugars
-    hasSugar = label1.containsSugar()
-    print("Contains added sugar:", str(hasSugar))
-    fileText = fileText + "\nContains added sugar: " + str(hasSugar)
-    addedSugars[image] = hasSugar
+    
+    #labelData[image] = (hasSugar, "{:.2f}".format(accuracy))
     
     #end of label
     fileText = fileText + "\n--------------------------------------\n"
@@ -108,8 +114,9 @@ with open("data.txt", "w") as file:
     file.write(fileText)
 
 # tabulate added sugars
-headers = ["Label Image", "Added Sugars?"]
-print(tabulate(addedSugars.items(), headers = headers))
+headers = ["Label Image", "Added Sugars?", "Accuracy"] 
+print(tabulate([(k,) + v for k,v in labelData.items()], headers = headers)) 
+#print(tabulate(labelData.items(), headers = headers))
 
 
 
