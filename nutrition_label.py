@@ -17,18 +17,29 @@ from collections import Counter
 from tabulate import tabulate
 
 # show boxes around words detected by pytesseract
-def printboxes(imageName):
-    # detect words
-    img = cv2.imread('images/'+imageName)
-    d = pytesseract.image_to_data(img, output_type=Output.DICT)
-    print(d.keys())
+def printboxes(imageName, mode = "words"):
 
-    # generate boxes around words
-    n_boxes = len(d['text'])
-    for i in range(n_boxes):
-        if int(d['conf'][i]) > 60:
-            (x, y, w, h) = (d['left'][i], d['top'][i], d['width'][i], d['height'][i])
-            img = cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)
+    img = cv2.imread('images/'+imageName)
+
+    # detect words
+    if mode == "words":
+        d = pytesseract.image_to_data(img, output_type=Output.DICT)
+        print(d.keys())
+
+        # generate boxes around words
+        n_boxes = len(d['text'])
+        for i in range(n_boxes):
+            if int(d['conf'][i]) > 60:
+                (x, y, w, h) = (d['left'][i], d['top'][i], d['width'][i], d['height'][i])
+                img = cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)
+
+    #detect characters
+    else:
+        h, w, c = img.shape
+        boxes = pytesseract.image_to_boxes(img) 
+        for b in boxes.splitlines():
+            b = b.split(' ')
+            img = cv2.rectangle(img, (int(b[1]), h - int(b[2])), (int(b[3]), h - int(b[4])), (0, 255, 0), 2)
 
     # #show boxes
     cv2.imshow('img', img)
@@ -45,7 +56,7 @@ def calcAccuracy(GTFile, label):
         #print(accuracy)
     return accuracy
 
-#printboxes('mochapowder.jpg')
+printboxes('mac.jpg')
 
 # get list of images from image set
 images = []
